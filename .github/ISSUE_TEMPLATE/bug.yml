@@ -1,0 +1,23 @@
+name: Ошибка
+description: Сообщение об ошибке, найденной при тестировании
+labels: ["тестирование"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый результат
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактический результат
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Критичность
+      options: ["критическая", "высокая", "средняя", "низкая"]

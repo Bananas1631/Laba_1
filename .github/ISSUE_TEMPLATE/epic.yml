@@ -1,0 +1,23 @@
+name: Эпик
+description: Крупная задача, объединяющая связанные задачи (подсистема или стадия)
+title: "Эпик: "
+labels: ["эпик"]
+body:
+  - type: input
+    id: tz
+    attributes:
+      label: Пункт ТЗ
+      placeholder: "разд. 4.2.1"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Задачи
+      description: Задачи добавляются как sub-issues

@@ -1,0 +1,30 @@
+name: Задача
+description: Задача внутри эпика
+labels: ["задача"]
+body:
+  - type: input
+    id: epic
+    attributes:
+      label: Эпик
+      placeholder: "#3"
+  - type: input
+    id: tz
+    attributes:
+      label: Пункт ТЗ
+      placeholder: "разд. 4.2.1"
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание (входные и выходные данные)
+    validations:
+      required: true
+  - type: textarea
+    id: subtasks
+    attributes:
+      label: Подзадачи
+      value: |
+        - [ ]
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии приёмки
