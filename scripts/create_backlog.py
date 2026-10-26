@@ -22,6 +22,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_LABELS = [
+    "accessibility",
     "bug", "documentation", "duplicate", "enhancement", "good first issue",
     "help wanted", "invalid", "question", "wontfix",
 ]
