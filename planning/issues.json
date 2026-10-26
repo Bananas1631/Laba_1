@@ -1,0 +1,888 @@
+{
+  "repo": "Bananas1631/Laba_1",
+  "milestones": {
+    "s1": 1,
+    "s2": 2,
+    "s3": 3
+  },
+  "issues": [
+    {
+      "type": "эпик",
+      "number": 1,
+      "title": "Эпик: Предпроектная стадия — анализ предметной области и ТЗ",
+      "milestone": "s1",
+      "owner": "Шаталин",
+      "tasks": [
+        2,
+        3
+      ],
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/1"
+    },
+    {
+      "type": "задача",
+      "number": 2,
+      "title": "Анализ предметной области peer-to-peer репетиторства",
+      "epic": 1,
+      "milestone": "s1",
+      "owner": "Валитов",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 4,
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/2"
+    },
+    {
+      "type": "задача",
+      "number": 3,
+      "title": "Разработка и утверждение ТЗ по ГОСТ 34.602-89",
+      "epic": 1,
+      "milestone": "s1",
+      "owner": "Шаталин",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 5,
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/3"
+    },
+    {
+      "type": "эпик",
+      "number": 4,
+      "title": "Эпик: Проектирование архитектуры и базы данных",
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "tasks": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/4"
+    },
+    {
+      "type": "задача",
+      "number": 5,
+      "title": "Диаграмма контекста системы (C4, уровень 1)",
+      "epic": 4,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "архитектура",
+        "документация"
+      ],
+      "subtasks": 3,
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/5"
+    },
+    {
+      "type": "задача",
+      "number": 6,
+      "title": "Диаграмма контейнеров и модулей (C4, уровень 2)",
+      "epic": 4,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "архитектура",
+        "документация"
+      ],
+      "subtasks": 4,
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/6"
+    },
+    {
+      "type": "задача",
+      "number": 7,
+      "title": "Глоссарий терминов предметной области",
+      "epic": 4,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 3,
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/7"
+    },
+    {
+      "type": "задача",
+      "number": 8,
+      "title": "Настройка репозитория, шаблонов задач и CI (GitHub Actions)",
+      "epic": 4,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "инфраструктура",
+        "тестирование"
+      ],
+      "subtasks": 4,
+      "done": true,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/8"
+    },
+    {
+      "type": "задача",
+      "number": 9,
+      "title": "ER-диаграмма и схема БД PostgreSQL (3НФ)",
+      "epic": 4,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "архитектура",
+        "backend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/9"
+    },
+    {
+      "type": "задача",
+      "number": 10,
+      "title": "Спецификация REST API (OpenAPI) и событий WebSocket",
+      "epic": 4,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "архитектура",
+        "backend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/10"
+    },
+    {
+      "type": "эпик",
+      "number": 11,
+      "title": "Эпик: Подсистема управления пользователями",
+      "milestone": "s2",
+      "owner": "Валитов",
+      "tasks": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/11"
+    },
+    {
+      "type": "задача",
+      "number": 12,
+      "title": "Регистрация пользователя",
+      "epic": 11,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/12"
+    },
+    {
+      "type": "задача",
+      "number": 13,
+      "title": "Аутентификация и выдача токена доступа",
+      "epic": 11,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend",
+        "безопасность"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/13"
+    },
+    {
+      "type": "задача",
+      "number": 14,
+      "title": "Разграничение прав доступа по ролям (RBAC)",
+      "epic": 11,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend",
+        "безопасность"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/14"
+    },
+    {
+      "type": "задача",
+      "number": 15,
+      "title": "Личный кабинет ученика и родителя",
+      "epic": 11,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/15"
+    },
+    {
+      "type": "задача",
+      "number": 16,
+      "title": "Анкета репетитора и загрузка документов верификации",
+      "epic": 11,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/16"
+    },
+    {
+      "type": "задача",
+      "number": 17,
+      "title": "Шифрование персональных данных и HTTPS",
+      "epic": 11,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "безопасность",
+        "инфраструктура"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/17"
+    },
+    {
+      "type": "эпик",
+      "number": 18,
+      "title": "Эпик: Подсистема поиска и подбора репетиторов",
+      "milestone": "s2",
+      "owner": "Валитов",
+      "tasks": [
+        19,
+        20,
+        21
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/18"
+    },
+    {
+      "type": "задача",
+      "number": 19,
+      "title": "Поиск репетиторов с фильтрами и ранжированием",
+      "epic": 18,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/19"
+    },
+    {
+      "type": "задача",
+      "number": 20,
+      "title": "Страница профиля репетитора",
+      "epic": 18,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/20"
+    },
+    {
+      "type": "задача",
+      "number": 21,
+      "title": "Главный раздел: каталог, строка поиска и блоки преимуществ",
+      "epic": 18,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/21"
+    },
+    {
+      "type": "эпик",
+      "number": 22,
+      "title": "Эпик: Подсистема расписания и бронирования",
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "tasks": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/22"
+    },
+    {
+      "type": "задача",
+      "number": 23,
+      "title": "Календарь доступных слотов репетитора (AvailabilitySlot)",
+      "epic": 22,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/23"
+    },
+    {
+      "type": "задача",
+      "number": 24,
+      "title": "Бронирование слота с блокировкой при конкурентном доступе",
+      "epic": 22,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "backend",
+        "тестирование"
+      ],
+      "subtasks": 5,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/24"
+    },
+    {
+      "type": "задача",
+      "number": 25,
+      "title": "Отмена бронирования и запуск возврата средств",
+      "epic": 22,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "backend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/25"
+    },
+    {
+      "type": "задача",
+      "number": 26,
+      "title": "Интеграция с Яндекс.Календарём (CalDAV / iCal)",
+      "epic": 22,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "интеграция"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/26"
+    },
+    {
+      "type": "эпик",
+      "number": 27,
+      "title": "Эпик: Подсистема оплаты (эскроу)",
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "tasks": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/27"
+    },
+    {
+      "type": "задача",
+      "number": 28,
+      "title": "Интеграция с платёжным шлюзом ЮKassa",
+      "epic": 27,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "интеграция",
+        "backend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/28"
+    },
+    {
+      "type": "задача",
+      "number": 29,
+      "title": "Эскроу: заморозка и выплата средств",
+      "epic": 27,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "backend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/29"
+    },
+    {
+      "type": "задача",
+      "number": 30,
+      "title": "Возврат средств",
+      "epic": 27,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "backend"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/30"
+    },
+    {
+      "type": "задача",
+      "number": 31,
+      "title": "Раздел «Финансы»: баланс, история, пополнение, вывод",
+      "epic": 27,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend",
+        "backend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/31"
+    },
+    {
+      "type": "эпик",
+      "number": 32,
+      "title": "Эпик: Подсистема проведения занятий",
+      "milestone": "s2",
+      "owner": "Любченко",
+      "tasks": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/32"
+    },
+    {
+      "type": "задача",
+      "number": 33,
+      "title": "Запуск видеосессии через Яндекс Телемост",
+      "epic": 32,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "интеграция"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/33"
+    },
+    {
+      "type": "задача",
+      "number": 34,
+      "title": "Чат занятия и обмен файлами (WebSocket, Object Storage)",
+      "epic": 32,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/34"
+    },
+    {
+      "type": "задача",
+      "number": 35,
+      "title": "Интерактивная доска",
+      "epic": 32,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend",
+        "интеграция"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/35"
+    },
+    {
+      "type": "задача",
+      "number": 36,
+      "title": "Домашние задания: выдача и загрузка решений",
+      "epic": 32,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/36"
+    },
+    {
+      "type": "задача",
+      "number": 37,
+      "title": "Проверка домашнего задания с помощью YandexGPT",
+      "epic": 32,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "интеграция",
+        "backend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/37"
+    },
+    {
+      "type": "эпик",
+      "number": 38,
+      "title": "Эпик: Обратная связь и уведомления",
+      "milestone": "s2",
+      "owner": "Валитов",
+      "tasks": [
+        39,
+        40
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/38"
+    },
+    {
+      "type": "задача",
+      "number": 39,
+      "title": "Отзывы и пересчёт рейтинга репетитора",
+      "epic": 38,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/39"
+    },
+    {
+      "type": "задача",
+      "number": 40,
+      "title": "Уведомления Push / SMS / Email по событиям",
+      "epic": 38,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend",
+        "интеграция"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/40"
+    },
+    {
+      "type": "эпик",
+      "number": 41,
+      "title": "Эпик: Пользовательский интерфейс и эргономика",
+      "milestone": "s2",
+      "owner": "Любченко",
+      "tasks": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/41"
+    },
+    {
+      "type": "задача",
+      "number": 42,
+      "title": "Шапка и боковое меню, адаптированное под роль",
+      "epic": 41,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/42"
+    },
+    {
+      "type": "задача",
+      "number": 43,
+      "title": "Визуальный стиль и адаптивная вёрстка",
+      "epic": 41,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/43"
+    },
+    {
+      "type": "задача",
+      "number": 44,
+      "title": "Раздел «Поддержка и помощь»",
+      "epic": 41,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend",
+        "документация"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/44"
+    },
+    {
+      "type": "задача",
+      "number": 45,
+      "title": "Мобильные приложения iOS и Android",
+      "epic": 41,
+      "milestone": "s2",
+      "owner": "Любченко",
+      "labels": [
+        "frontend",
+        "приоритет: низкий"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/45"
+    },
+    {
+      "type": "эпик",
+      "number": 46,
+      "title": "Эпик: Администрирование и эксплуатация",
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "tasks": [
+        47,
+        48,
+        49
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/46"
+    },
+    {
+      "type": "задача",
+      "number": 47,
+      "title": "Панель администратора: верификация, блокировка, модерация, отчёты",
+      "epic": 46,
+      "milestone": "s2",
+      "owner": "Валитов",
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/47"
+    },
+    {
+      "type": "задача",
+      "number": 48,
+      "title": "Развёртывание в Yandex Cloud и CD",
+      "epic": 46,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "инфраструктура"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/48"
+    },
+    {
+      "type": "задача",
+      "number": 49,
+      "title": "Мониторинг, резервное копирование и репликация БД",
+      "epic": 46,
+      "milestone": "s2",
+      "owner": "Шаталин",
+      "labels": [
+        "инфраструктура"
+      ],
+      "subtasks": 4,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/49"
+    },
+    {
+      "type": "эпик",
+      "number": 50,
+      "title": "Эпик: Тестирование и приёмка системы",
+      "milestone": "s3",
+      "owner": "Любченко",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/50"
+    },
+    {
+      "type": "задача",
+      "number": 51,
+      "title": "Программа и методика испытаний",
+      "epic": 50,
+      "milestone": "s3",
+      "owner": "Любченко",
+      "labels": [
+        "тестирование",
+        "документация"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/51"
+    },
+    {
+      "type": "задача",
+      "number": 52,
+      "title": "Альфа-тестирование (внутреннее)",
+      "epic": 50,
+      "milestone": "s3",
+      "owner": "Любченко",
+      "labels": [
+        "тестирование"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/52"
+    },
+    {
+      "type": "задача",
+      "number": 53,
+      "title": "Нагрузочное тестирование",
+      "epic": 50,
+      "milestone": "s3",
+      "owner": "Шаталин",
+      "labels": [
+        "тестирование",
+        "инфраструктура"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/53"
+    },
+    {
+      "type": "задача",
+      "number": 54,
+      "title": "Бета-тестирование (10–15 пользователей)",
+      "epic": 50,
+      "milestone": "s3",
+      "owner": "Валитов",
+      "labels": [
+        "тестирование"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/54"
+    },
+    {
+      "type": "задача",
+      "number": 55,
+      "title": "Приёмо-сдаточные испытания и акт приёмки",
+      "epic": 50,
+      "milestone": "s3",
+      "owner": "Шаталин",
+      "labels": [
+        "тестирование",
+        "документация"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/55"
+    },
+    {
+      "type": "эпик",
+      "number": 56,
+      "title": "Эпик: Документирование и защита проекта",
+      "milestone": "s3",
+      "owner": "Любченко",
+      "tasks": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/56"
+    },
+    {
+      "type": "задача",
+      "number": 57,
+      "title": "Руководство пользователя (Гость, Ученик/Родитель, Репетитор)",
+      "epic": 56,
+      "milestone": "s3",
+      "owner": "Любченко",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 3,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/57"
+    },
+    {
+      "type": "задача",
+      "number": 58,
+      "title": "Руководство администратора и инструкция по верификации",
+      "epic": 56,
+      "milestone": "s3",
+      "owner": "Валитов",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/58"
+    },
+    {
+      "type": "задача",
+      "number": 59,
+      "title": "Формуляр системы и онлайн-справка",
+      "epic": 56,
+      "milestone": "s3",
+      "owner": "Шаталин",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/59"
+    },
+    {
+      "type": "задача",
+      "number": 60,
+      "title": "Подготовка к защите проекта",
+      "epic": 56,
+      "milestone": "s3",
+      "owner": "Шаталин",
+      "labels": [
+        "документация"
+      ],
+      "subtasks": 2,
+      "done": false,
+      "url": "https://github.com/Bananas1631/Laba_1/issues/60"
+    }
+  ]
+}
