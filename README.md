@@ -4,7 +4,7 @@
 
 Учебный проект СамГТУ, кафедра «Информатика и вычислительная техника», дисциплина «Методология автоматизации технологических процессов разработки ПО».
 
-[![CI](https://github.com/Bananas1631/repetitor-prosto/actions/workflows/ci.yml/badge.svg)](https://github.com/Bananas1631/repetitor-prosto/actions/workflows/ci.yml)
+[![CI](https://github.com/Bananas1631/Laba_1/actions/workflows/ci.yml/badge.svg)](https://github.com/Bananas1631/Laba_1/actions/workflows/ci.yml)
 
 ## Команда
 
